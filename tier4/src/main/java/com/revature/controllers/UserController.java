@@ -40,10 +40,7 @@ public class UserController {
 		return userService.findUserByUsername(username);
 	}
 	
-	@GetMapping("/{credentials}")
-	public User getUserByCredentials(@PathVariable String credentials) {
-		return userService.findUserByCredentials(credentials);
-	}
+
 	
 	
 
